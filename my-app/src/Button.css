@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* import fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+/* create style for button */
+.submit-button {
+    background-color: #4c82af; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 8px;
+    border: 1px solid #4c82af;
+    box-shadow: 0 5px #ffffff;
+    
+
+}
+
+.submit-button:hover {
+    opacity: 1;
+}
+
+/*change button font */
+.submit-button {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* change style when mouse click */
+.submit-button:active {
+    background-color: #4c82af;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+

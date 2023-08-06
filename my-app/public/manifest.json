@@ -21,5 +21,9 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "react-native-vector-icons": ">= 6.x.x",
+  "react-native-linear-gradient": ">= 2.5.x",
+  "react-native-dynamic-vector-icons": ">= x.x.x"
 }
+
